@@ -1,5 +1,5 @@
 {
-    "name": "rinvex/repository",
+    "name": "shareed2k/repository",
     "description": "Rinvex Repository is a simple, intuitive, and smart implementation of Active Repository with extremely flexible & granular caching system for Laravel, used to abstract the data layer, making applications more flexible to maintain.",
     "keywords": [
         "rinvex",
@@ -39,6 +39,7 @@
         }
     ],
     "require": {
+<<<<<<< Updated upstream
         "php": "^7.0.0",
         "illuminate/events": "~5.5.0",
         "illuminate/support": "~5.5.0",
@@ -48,7 +49,13 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0.0",
-        "illuminate/config": "~5.5.0"
+        "illuminate/config": "~5.5.0",
+        "php": ">=5.5.9",
+        "illuminate/events": "5.1.*|5.2.*|5.3.*|5.5.*",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.5.*",
+        "illuminate/database": "5.1.*|5.2.*|5.3.*|5.5.*",
+        "illuminate/container": "5.1.*|5.2.*|5.3.*|5.5.*",
+        "illuminate/contracts": "5.1.*|5.2.*|5.3.*|5.5.*"
     },
     "suggest": {
         "illuminate/pagination": "Required to paginate the result set."
